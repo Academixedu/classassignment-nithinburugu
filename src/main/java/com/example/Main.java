@@ -27,12 +27,12 @@ public class Main {
         Book b1 = new Book("Merchant of Venice", 20, "Shakespeare");
 
         b1.displayBookDetails();
-        System.out.println(b1.getCount());
+        System.out.println(Book.getCount());
 
         Book b2 = new Book("Atomic Habits", 12, "Robert");
 
         b2.displayBookDetails();
-        System.out.println(b1.getCount());
+        System.out.println(Book.getCount());
     }
 
 }

@@ -6,7 +6,7 @@ package com.example;
 public class Student {
     private int age;
     private String name;
-    private static int studentCount = 0;
+    public static int studentCount = 0;
 
     public Student(String name, int age) {
         this.age = age;
@@ -39,7 +39,7 @@ public class Student {
         return studentCount;
     }
 
-    public void setStudentCount(int studentCount) {
-        this.studentCount = studentCount;
+    public static void setStudentCount(int studentCount) {
+        Student.studentCount = studentCount;
     }
 }
